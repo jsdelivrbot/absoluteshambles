@@ -1,6 +1,8 @@
 
 var url = 'http://cors.io/?u=https://absoluteradio.co.uk/absolute-radio/music/'
 
+console.log('GET START')
+
 var request = new XMLHttpRequest();
 request.onreadystatechange = function() {
     if (request.readyState === 4) {
@@ -14,3 +16,6 @@ request.onreadystatechange = function() {
 };
 request.open("GET", url , true);
 request.send(null);
+
+
+console.log('GET END')
