@@ -1,7 +1,7 @@
 
 alert('hello world');
 
-var url = 'https://absoluteradio.co.uk/absolute-radio/music/'
+var url = 'http://cors.io/?u=https://absoluteradio.co.uk/absolute-radio/music/'
 
 var request = new XMLHttpRequest();
 request.onreadystatechange = function() {
